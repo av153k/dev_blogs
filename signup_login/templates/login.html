@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block page_content %}
+
+<div class="container-fluid">
+
+    Don't have an account ? <a href="{% url 'signup' %}"><strong>Sign Up Here.</strong></a>
+    <br><br><br>
+
+    <h1><strong>LOG IN</strong></h1>
+
+    <br>
+    <div class="form-group">
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}                    
+            <button type="submit" class="btn btn-primary">Log In</button>
+        </form>
+    </div>
+</div>
+
+{% endblock %}

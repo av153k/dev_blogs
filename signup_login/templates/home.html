@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_content %}
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-8">
+            <a href="{% url 'homepage' %}">
+                <img src="{% static 'img/logo_name.jpg' %}">
+            </a>
+        </div>   
+        <div class="col-sm-4">
+            <br><br><br><br><br>
+            <a class="btn btn-primary btn-lg" href="{% url 'signup' %}" type="button">
+                SIGNUP
+            </a>
+            <a class="btn btn-primary btn-lg" href="{% url 'login' %}" type="button">
+                LOGIN
+            </a>
+        </div>
+    </div>
+</div>
+
+
+
+
+{% endblock %}
+
