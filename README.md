@@ -1,2 +1,2 @@
 # dev_blogs
-It's a Django project.
+It's a Django project. This is a webiste I've been working on which is blog website for developers but I have a future plan to implement Instagram photo upload feature to it as well. As of now it's in the earliest stage with all the basics like user creation and logging in processes done. I will be making changes to the repository as I proceed in developing the website. Any suggestions would be appreciated. 
